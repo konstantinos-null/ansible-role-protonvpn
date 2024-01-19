@@ -1,0 +1,16 @@
+---
+# tasks file for ansible-role-protonvpn
+#
+#
+
+
+- name: Install stable version of protonvpn
+  ansible.builtin.import_tasks:
+    file: stable.yml
+  tags: stable
+
+- name: Install beta version of protonvpn
+  ansible.builtin.import_tasks:
+    file: beta.yml
+  tags: beta
+

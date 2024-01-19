@@ -1,0 +1,8 @@
+---
+# defaults file for ansible-role-protonvpn
+#
+#
+
+fedora_url_repo: https://repo.protonvpn.com/fedora-39-unstable/protonvpn-beta-release/protonvpn-beta-release-1.0.1-2.noarch.rpm
+debian_url_repo: https://repo.protonvpn.com/debian/dists/unstable/main/binary-all/protonvpn-beta-release_1.0.3-2_all.deb
+ubuntu_url_repo: https://repo.protonvpn.com/debian/dists/unstable/main/binary-all/protonvpn-beta-release_1.0.3-2_all.deb
